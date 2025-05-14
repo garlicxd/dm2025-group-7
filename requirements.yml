@@ -3,7 +3,7 @@ channels:
     - conda-forge
     - defaults
 dependencies:
-    - python=3.8
+    - python=3.9
     - numpy
     - scikit-learn
     - matplotlib
@@ -12,6 +12,14 @@ dependencies:
     - pyarrow
     - pandas
     - seaborn
+    - spacy
+    - datasets
+    - faiss-cpu
     - pip
     - pip:
         - drawdata
+        - torch
+        - torchvision
+        - networkx
+        - beir
+        - tabulate
